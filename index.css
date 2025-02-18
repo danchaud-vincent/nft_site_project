@@ -6,16 +6,6 @@ body{
 }
 
 
-a{
-    color: #ef5839;
-    text-decoration: underline dotted;
-}
-
-a:hover, a:active{
-    color: #d4b44c;
-}
-
-
 /* Layouts */
 header{
     background-color: #5f29a3;
@@ -23,7 +13,6 @@ header{
 }
 
 .container{
-    border: 2px solid black;
     width: 620px;
     margin: 0 auto;
     padding: 45px 0;
@@ -43,6 +32,7 @@ header{
 footer{
     text-align: center;
     color: #5f29a3;
+    padding: 45px 0;
 }
 
 
@@ -84,3 +74,52 @@ header h3{
     color: #d0aaff;
 }
 
+p{
+    line-height: 25px;
+}
+
+/* LINKS */
+a{
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+a:hover, a:active{
+    color: #d4b44c;
+}
+
+
+.btn{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500px;
+    text-decoration: none;
+
+}
+
+.btn:hover, .btn:active{
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
+.nft-btn{
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.info-btn{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.about-btn{
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.contact-btn{
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
